@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #f4f6fb;
+}
+
+.timer-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 30px 60px rgba(99, 102, 241, 0.15);
+  text-align: center;
+}
+
+.config {
+  margin-bottom: 16px;
+}
+
+.config input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.display {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.status {
+  margin-bottom: 12px;
+}
+
+.done {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.controls button:disabled {
+  background: #c7c7c7;
+  cursor: not-allowed;
+}
